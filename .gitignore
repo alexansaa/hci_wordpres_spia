@@ -1,0 +1,76 @@
+# Docker-specific files
+docker-compose.override.yml
+docker-compose.*.yml
+Dockerfile
+.dockerignore
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Configuration files
+*.env
+*.env.*
+
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-*/ 
+
+# MySQL specific
+mysql/
+*.sql
+*.sql.gz
+*.dmp
+
+# phpMyAdmin specific
+phpMyAdmin/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Node.js specific (if any Node.js scripts or tooling is used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE or editor specific
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Other sensitive files
+*.key
+*.pem
+*.crt
+
+# Miscellaneous
+*.bak
+*.old
+*.orig
+*.pyc
+*.pyo
+*.sqlite3
+
+# Ignore backup files
+*.bak
+*.bkp
+*.bak~
+*.swp
+*~
+
+# Ignore dependency directories
+vendor/
